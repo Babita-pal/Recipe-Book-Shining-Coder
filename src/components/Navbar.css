@@ -1,0 +1,29 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #4f46e5;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 30px; */
+}
+
+.navbar-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-button {
+  background-color: white;
+  color: #4f46e5;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.navbar-button:hover {
+  background-color: #e5e7eb;
+}
